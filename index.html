@@ -1,0 +1,37 @@
+<!DOCTYPE html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="manifest" href="manifestPlantilla.json" >
+        <title>TO DO LIST</title>
+    </head>
+    <body>
+    <header>
+        <h1>Mis pendientes</h1>
+        <h6 id="fecha" >27 de mayo</h6>
+    </header>
+    <section>
+        <article>
+        <input type="text" placeholder="Escribe aqui" id="nuevaTarea">
+        <button onclick="agregar()">+</button>
+    </article>
+    <h3>Por hacer</h3>
+    <nav class="porhacer">
+
+    </nav>
+    <h3>Terminado</h3>
+    <nav class="terminado">
+
+    </nav>
+</section>
+    </body>
+    <script type="text/Javascript" src="funciones.js"></script>
+    <script type ="text/Javascript">
+        window.addEventListener('load',init);
+    </script>
+</html>
